@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: org.ksolves.Main
+Class-Path: commons-lang3-3.13.0.jar commons-beanutils-1.9.4.jar commons
+ -collections-3.2.2.jar log4j-core-2.13.0.jar commons-logging-1.2.jar po
+ stgresql-42.2.14.jar log4j-api-2.13.0.jar commons-text-1.11.0.jar openc
+ sv-5.9.jar commons-collections4-4.4.jar
+
