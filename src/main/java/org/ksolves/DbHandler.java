@@ -1,7 +1,6 @@
 package org.ksolves;
 
 import java.io.InputStream;
-import java.sql.*;
 import java.util.Properties;
 
 public class DbHandler {
@@ -15,9 +14,7 @@ public class DbHandler {
                 System.exit(1);
             }
             properties.load(input);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+        } catch (Exception ignored) {}
     }
 
     public static String getDbUrl() {

@@ -12,9 +12,7 @@ public class DbConnector {
         try {
 
             return DriverManager.getConnection(jdbcurl, username, password);
-        } catch (SQLException e) {
-            System.out.println(e);
-        }
+        } catch (SQLException ignored) {   }
         return connection();
     }
 }

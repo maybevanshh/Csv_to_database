@@ -1,5 +1,4 @@
 package org.ksolves;
-import org.junit.gen5.api.extension.ExtendWith;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +6,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         File_processor fp = new File_processor();
-        File infile = null;
+        File infile;
         if (0 < args.length) {
             infile = new File(args[0]);
             try {

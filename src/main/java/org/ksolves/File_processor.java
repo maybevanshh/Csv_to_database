@@ -3,8 +3,6 @@ import com.opencsv.CSVReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.gen5.api.Test;
-import org.junit.gen5.api.extension.ExtendWith;
-
 import java.io.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
